@@ -47,6 +47,9 @@ main {
   margin-right: auto;
   /* margin-bottom: 30px; */
 }
+.navbar {
+  background-color: black;
+}
 
 .title {
   text-align: center;
@@ -87,7 +90,12 @@ main {
 .video {
   overflow: hidden;
   margin-top: 50px;
-  margin-right: auto;
+  /* margin-right: auto; */
+  min-height: 50vw;
+}
+.media {
+  display: flex;
+  flex-direction: column;
 }
 
 .stores {
@@ -101,6 +109,42 @@ main {
   border-radius: 15px;
   box-shadow: 5px 5px 2px -2px gray;
   background-color: white;
+}
+.maps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.location {
+  width: 47%;
+  min-width: 280px
+}
+.Stylists {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 97%;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 2px -2px gray;
+  background-color: white;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  border: 3px solid black;
+  min-width: 280px;
+  width: 25%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 2px -2px gray;
+  margin-bottom: 10px;
 }
 
 .map-responsive {
