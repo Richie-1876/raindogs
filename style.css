@@ -2,22 +2,23 @@
   border: 1px solid black;
   margin: 0;
 } */
-
 main {
   padding-top: 100px;
-   background-color: black;
+  background-color: black;
 }
-#logo-left{
+
+#logo-left {
   margin-left: 0;
   margin-right: auto;
   max-width: 150px;
-  height:115px;
+  height: 115px;
 }
-#logo-right{
+
+#logo-right {
   margin-left: auto;
   margin-right: 0;
   max-width: 150px;
-  height:115px;
+  height: 115px;
 }
 
 .header {
@@ -32,12 +33,13 @@ main {
   left: 0;
   z-index: 999;
 }
+
 .my-header {
   display: flex;
   flex-direction: row;
 }
 
-.name{
+.name {
   display: flex;
   flex-direction: row;
   width: 50vw;
@@ -45,7 +47,8 @@ main {
   margin-right: auto;
   /* margin-bottom: 30px; */
 }
-.title{
+
+.title {
   text-align: center;
   font-size: .5rem;
   margin-left: auto;
@@ -55,7 +58,7 @@ main {
   padding: 10px;
 }
 
-.about-us{
+.about-us {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -67,6 +70,7 @@ main {
   box-shadow: 5px 5px 2px -2px gray;
   background-color: white;
 }
+
 .Gallery {
   margin-top: 50px;
   margin-left: auto;
@@ -79,6 +83,13 @@ main {
   box-shadow: 5px 5px 2px -2px gray;
   background-color: white;
 }
+
+.video {
+  overflow: hidden;
+  margin-top: 50px;
+  margin-right: auto;
+}
+
 .stores {
   margin-top: 50px;
   margin-left: auto;
@@ -91,47 +102,52 @@ main {
   box-shadow: 5px 5px 2px -2px gray;
   background-color: white;
 }
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56%;
-    position:relative;
-    height:0;
-    border: 3px solid black;
-}
-.map-responsive iframe{
-    right:0;
-    top:0;
-    width:100%;
-    position:absolute;
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56%;
+  position: relative;
+  height: 0;
+  border: 3px solid black;
+}
+
+.map-responsive iframe {
+  right: 0;
+  top: 0;
+  width: 50%;
+  position: absolute;
+  border: 1px solid black;
+}
+
+.details {
+  width: 50%;
 }
 
 main {
   padding-top: 160px;
-
 }
+
 .title h1 {
   font-weight: bolder;
   margin-top: 15px;
   font-size: 3em;
 }
+
 .title h3 {
   font-size: 2em;
 }
+
 .carousel-inner img {
-   width: 100%;
-   height: 100%;
- }
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (max-width: 500px) {
+  .nomobile {
+    display: none;
+  }
 
-        .nomobile {
-            display:none;
-        }
-        #logo-left {
-          margin-right: 0;
-        }
-
-
-
+  #logo-left {
+    margin-right: 0;
+  }
 }
