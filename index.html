@@ -45,14 +45,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <a href="#" class="nav-item nav-link active">Home</a>
-        <a href="#" class="nav-item nav-link">About Us</a>
-        <a href="#" class="nav-item nav-link">Gallery</a>
-        <a href="#" class="nav-item nav-link">Stores</a>
-        <a href="#" class="nav-item nav-link">Stylists</a>
-        <a href="#" class="nav-item nav-link">Book Now</a>
-        <a href="#" class="nav-item nav-link">Price List</a>
+      <div class="collapse navbar-collapse " id="navbarCollapse">
+        <a href="#booknow" class="nav-item nav-link active"data-toggle="collapse" data-target="#navbarCollapse">Book Now</a>
+        <a href="#about-us" class="nav-item nav-link"data-toggle="collapse" data-target="#navbarCollapse">About Us</a>
+        <a href="#gallery" class="nav-item nav-link"data-toggle="collapse" data-target="#navbarCollapse">Gallery</a>
+        <a href="#stores" class="nav-item nav-link"data-toggle="collapse" data-target="#navbarCollapse">Stores</a>
+        <a href="#stylists" class="nav-item nav-link"data-toggle="collapse" data-target="#navbarCollapse">Stylists</a>
+        <a href="#" class="nav-item nav-link"data-toggle="collapse" data-target="#navbarCollapse">Price List</a>
+
       </div>
 
     </nav>
@@ -60,9 +60,11 @@
   </div>
 
 
-  <main>
+  <main class="text-center">
 
-    <div class="about-us">
+    <button type="button" href="#" class="btn btn-secondary btn-lg" id="booknow">Book Now</button>
+
+    <div class="about-us" id="about-us">
       <h3>About Us</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -70,7 +72,7 @@
 
 
 
-    <div class="Gallery">
+    <div class="Gallery" id="gallery">
       <h3>Gallery</h3>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -110,7 +112,7 @@
         </div>
 
 
-      <div class="stores">
+      <div class="stores" id="stores">
         <h3>Stores</h3>
         <div class="maps">
           <div class="location">
@@ -146,7 +148,7 @@
 
       </div>
 
-        <div class="Stylists">
+        <div class="Stylists" id="stylists">
           <h3>Stylists</h3>
           <div class="card-container">
 
