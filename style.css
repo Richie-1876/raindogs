@@ -2,10 +2,19 @@
   border: 1px solid black;
   margin: 0;
 } */
+body {
+  cursor: url("images/pngwing.com.png"), pointer;
+}
+a:hover {
+  cursor: url("images/pngwing.com.png"), pointer;
+}
+span:hover {
+  cursor: url("images/pngwing.com.png"), pointer;
+}
+
 main {
   padding-top: 100px;
-  background-color: black;
-
+  background-color: rgb(0,0,0);
 }
 
 #logo-left {
@@ -48,6 +57,7 @@ main {
   margin-right: auto;
   /* margin-bottom: 30px; */
 }
+
 .navbar {
   background-color: black;
 }
@@ -66,30 +76,63 @@ main {
   margin-top: 50px;
 
 }
+
+.booknow {
+  border-left: 10px solid green;
+  border-right: 10px solid green;
+  border-bottom: 5px solid green;
+  padding-bottom: 50px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+
+}
 .about-us {
-  margin-top: 50px;
+  color: white;
+
   margin-left: auto;
   margin-right: auto;
-  max-width: 97%;
+  max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 3px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px gray;
-  background-color: white;
+  border: 5px solid green;
+  border-left: 10px solid green;
+  border-right: 10px solid green;
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("images/shopfront.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Gallery {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: auto;
   margin-right: auto;
-  max-width: 97%;
+  max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 3px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px gray;
-  background-color: white;
+  border: 5px solid green;
+  border-left: 10px solid green;
+  border-right: 10px solid green;
+  background-color: black;
+  color: white;
+}
+
+
+.carousel-inner .carousel-item img{
+min-height:200px;
+//prevent it from stretch in screen size < than 768px
+object-fit:cover
+}
+
+@media(max-width:768px){
+.carousel .carousel-inner{
+//prevent it from adding a white space between carousel and container elements
+height:auto
+ }
 }
 
 .video {
@@ -98,71 +141,82 @@ main {
   /* margin-right: auto; */
   min-height: 50vw;
 }
+
 .media {
   display: flex;
   flex-direction: column;
 }
 
 .stores {
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 97%;
+  max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 3px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px gray;
-  background-color: white;
+  border: 5px solid green;
+  border-right: 10px solid green;
+  border-left: 10px solid green;
+  background-color: black;
+  color: white;
 }
+
 .maps {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .location {
   width: 47%;
   min-width: 280px
 }
+
 .Stylists {
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 97%;
+  max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 3px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px gray;
-  background-color: white;
+  border: 5px solid green;
+  border-right: 10px solid green;
+  border-left: 10px solid green;
+  background-color: black;
+  color: white;
 }
+
 .card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .card {
-  border: 3px solid black;
+  background-color: black;
+  border: 3px solid green;
   min-width: 280px;
   width: 25%;
   border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px gray;
+  box-shadow: 5px 5px 2px -2px green;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 10px;
 }
 
 .price-list {
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 97%;
+  max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 3px solid black;
-  border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px gray;
-  background-color: white;
+  border: 5px solid green;
+  border-right: 10px solid green;
+  border-left: 10px solid green;
+  border-bottom: 0px;
+  background-color: black;
+  color: white;
 }
 
 .map-responsive {
@@ -203,11 +257,20 @@ main {
   width: 100%;
   height: 100%;
 }
+
 footer {
-  margin-top: 50px;
+
   height: 50px;
   width: 100%;
-  background-color: rgb(52,58,64)
+  background-color: rgb(52, 58, 64);
+  line-height: 50px;
+}
+
+footer p {
+  color: white;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -219,3 +282,25 @@ footer {
     margin-right: 0;
   }
 }
+
+@media (min-width: 992px) {
+    .section1 {
+      display: flex;
+      flex-direction: row;
+    }
+    .about-us {
+
+      width:50%;
+      border-right: 10px solid green;
+
+    }
+    .Gallery {
+
+      width: 50%;
+      max-height: 90vh;
+    }
+    .carousel .carousel-inner{
+    height:500px
+    }
+
+ }
