@@ -164,7 +164,7 @@ height:auto
   color: white;
 }
 
-.maps {
+.locations-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -172,9 +172,12 @@ height:auto
 }
 
 .location {
-  width: 47%;
-  min-width: 280px
+  /* max-height: 60vh; */
 }
+
+
+
+
 
 .Stylists {
   margin-left: auto;
@@ -198,11 +201,11 @@ height:auto
 
 .card {
   background-color: black;
-  border: 3px solid green;
+  border: 3px solid rgb(52,58,64);
   min-width: 280px;
   width: 25%;
   border-radius: 15px;
-  box-shadow: 5px 5px 2px -2px green;
+  box-shadow: 5px 5px 2px -2px white;
   margin-top: 20px;
   margin-right: 10px;
   margin-left: 10px;
@@ -223,21 +226,7 @@ height:auto
   color: white;
 }
 
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56%;
-  position: relative;
-  height: 0;
-  border: 3px solid black;
-}
 
-.map-responsive iframe {
-  right: 0;
-  top: 0;
-  width: 50%;
-  position: absolute;
-  border: 1px solid black;
-}
 
 .details {
   width: 50%;
