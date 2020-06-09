@@ -14,7 +14,7 @@ $(document).ready(function(){
 
       // Using jQuery's animate() method to add smooth page scroll
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - 200 + "px"
+        scrollTop: $(hash).offset().top - 173 + "px"
       }, 800, function(){
 
       });
