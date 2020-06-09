@@ -103,12 +103,16 @@ main {
   border: 5px solid rgb(52,58,64);
   border-left: 10px solid rgb(52,58,64);
   border-right: 10px solid rgb(52,58,64);
-  background-image:linear-gradient(
+  /* background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url("images/shopfront.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+.about-us p {
+  font-size: 25px;
+  text-align: left;
 }
 
 .Gallery {
@@ -171,9 +175,13 @@ height:auto
   flex-wrap: wrap;
 }
 
-.location {
-  /* max-height: 60vh; */
+.location .card-img-top {
+  height: 60vh;
 }
+.location {
+  margin-bottom: 20px;
+}
+
 
 
 
