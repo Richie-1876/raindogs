@@ -5,20 +5,24 @@
 body {
   cursor: url("images/pngwing.com.png"), pointer;
 }
+
 a:hover {
   cursor: url("images/pngwing.com.png"), pointer;
 }
+
 span:hover {
   cursor: url("images/pngwing.com.png"), pointer;
 }
 
 main {
   padding-top: 100px;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
+
 h3 {
   font-family: helvetica;
 }
+
 .container {
   max-height: 200px;
 }
@@ -81,34 +85,34 @@ h3 {
 
 #booknow {
   margin-top: 50px;
-
 }
 
 .booknow {
-  border-left: 10px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
-  border-bottom: 5px solid rgb(52,58,64);
+  border-left: 10px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
+  border-bottom: 5px solid rgb(52, 58, 64);
   padding-bottom: 50px;
 }
+
 .booknow p {
   color: white;
 }
+
 .section1 {
   display: flex;
   flex-direction: column;
-
 }
+
 .about-us {
   color: white;
-
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 5px solid rgb(52,58,64);
-  border-left: 10px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
+  border: 5px solid rgb(52, 58, 64);
+  border-left: 10px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
   /* background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -116,6 +120,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover; */
 }
+
 .about-us p {
   font-size: 20px;
 }
@@ -127,25 +132,24 @@ h3 {
   max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 5px solid rgb(52,58,64);
-  border-left: 10px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
+  border: 5px solid rgb(52, 58, 64);
+  border-left: 10px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
   background-color: black;
   color: white;
 }
 
-
-.carousel-inner .carousel-item img{
-min-height:200px;
-//prevent it from stretch in screen size < than 768px
-object-fit:cover
+.carousel-inner .carousel-item img {
+  min-height: 200px;
+  //prevent it from stretch in screen size < than 768px
+  object-fit: cover
 }
 
-@media(max-width:768px){
-.carousel .carousel-inner{
-//prevent it from adding a white space between carousel and container elements
-height:auto
- }
+@media(max-width:768px) {
+  .carousel .carousel-inner {
+    //prevent it from adding a white space between carousel and container elements
+    height: auto
+  }
 }
 
 .video {
@@ -166,9 +170,9 @@ height:auto
   max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 5px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
-  border-left: 10px solid rgb(52,58,64);
+  border: 5px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
+  border-left: 10px solid rgb(52, 58, 64);
   background-color: black;
   color: white;
 }
@@ -183,14 +187,10 @@ height:auto
 .location .card-img-top {
   height: 60vh;
 }
+
 .location {
   margin-bottom: 20px;
 }
-
-
-
-
-
 
 .Stylists {
   margin-left: auto;
@@ -198,9 +198,9 @@ height:auto
   max-width: 100%;
   text-align: center;
   padding: 10px;
-  border: 5px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
-  border-left: 10px solid rgb(52,58,64);
+  border: 5px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
+  border-left: 10px solid rgb(52, 58, 64);
   background-color: black;
   color: white;
 }
@@ -214,7 +214,7 @@ height:auto
 
 .card {
   background-color: black;
-  border: 3px solid rgb(52,58,64);
+  border: 3px solid rgb(52, 58, 64);
   min-width: 280px;
   width: 25%;
   border-radius: 15px;
@@ -231,15 +231,13 @@ height:auto
   width: 100%;
   text-align: center;
   padding: 10px;
-  border: 5px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
-  border-left: 10px solid rgb(52,58,64);
-  border-bottom: 5px solid rgb(52,58,64);
+  border: 5px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
+  border-left: 10px solid rgb(52, 58, 64);
+  border-bottom: 5px solid rgb(52, 58, 64);
   background-color: black;
   color: white;
 }
-
-
 
 .details {
   width: 50%;
@@ -263,18 +261,20 @@ main {
   width: 100%;
   height: 100%;
 }
+
 .contact-us {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   text-align: center;
   padding: 10px;
-  border: 5px solid rgb(52,58,64);
-  border-left: 10px solid rgb(52,58,64);
-  border-right: 10px solid rgb(52,58,64);
+  border: 5px solid rgb(52, 58, 64);
+  border-left: 10px solid rgb(52, 58, 64);
+  border-right: 10px solid rgb(52, 58, 64);
   background-color: black;
   color: white;
 }
+
 .address-container {
   margin-top: 50px;
   margin-bottom: 25px;
@@ -282,12 +282,12 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .address {
   width: 50%;
 }
 
 footer {
-
   height: 50px;
   width: 100%;
   background-color: rgb(52, 58, 64);
@@ -312,29 +312,30 @@ footer p {
 }
 
 @media (min-width: 992px) {
-    .section1 {
-      display: flex;
-      flex-direction: row;
-    }
-    .about-us {
+  .section1 {
+    display: flex;
+    flex-direction: row;
+  }
 
-      width:50%;
-      border-right: 10px solid rgb(52,58,64);
+  .about-us {
+    width: 50%;
+    border-right: 10px solid rgb(52, 58, 64);
+  }
 
-    }
-    .Gallery {
+  .Gallery {
+    width: 50%;
+    max-height: 90vh;
+  }
 
-      width: 50%;
-      max-height: 90vh;
-    }
-    .carousel .carousel-inner{
-    height:500px
-    }
-    .price-list {
-      width: 50%;
-    }
-    .contact-us {
-      width: 50%;
-    }
+  .carousel .carousel-inner {
+    height: 500px
+  }
 
- }
+  .price-list {
+    width: 50%;
+  }
+
+  .contact-us {
+    width: 50%;
+  }
+}
