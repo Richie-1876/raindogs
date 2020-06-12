@@ -96,9 +96,10 @@ h3 {
 
 .booknow p {
   color: white;
+  font-size: 21px;
 }
 .carousel-item p {
-  font-size: 25px;
+  font-size: 21px;
 }
 .section1 {
   display: flex;
