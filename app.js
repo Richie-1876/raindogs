@@ -14,10 +14,10 @@ $(document).ready(function(){
 
       // Using jQuery's animate() method to add smooth page scroll
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - 173 + "px"
+        scrollTop: $(hash).offset().top - 325 + "px"
       }, 800, function(){
 
       });
-    } // End if
+    }
   });
 });
